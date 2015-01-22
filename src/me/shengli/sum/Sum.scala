@@ -1,4 +1,4 @@
-package me.shengli.chapter2
+package me.shengli.sum
 
 /**
  * Created by shengli on 1/21/15.

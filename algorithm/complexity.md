@@ -23,7 +23,7 @@
 ####平方阶
 如果有for循环并且循环嵌套2层，那么就是O(n^m). n,m 分别为每层的问题规模。
 ####对数阶
-```
+```java
 int count  = 1;
 while (count < n) {
   count = count * 2
@@ -35,7 +35,7 @@ x = log2n
 所以这个循环的时间复杂度为O(logn)
 
 推导时间复杂度
-```
+```java
 int i ; j;
 for (int i = 0; i < n; i++) {
   for (int j = i; j < n; j++ ) {
